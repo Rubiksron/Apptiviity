@@ -1,7 +1,7 @@
 * {
   font-family: 'Vollkorn' ,serif;
 }
-#picsContainer {
+/*#picsContainer {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -22,7 +22,7 @@
 .bio {
   width: 40em;
   height: 20em;
-}
+}*/
 
 main {
   width: 77.75em;
@@ -49,9 +49,6 @@ body {
   margin: 0em;
   min-height: 100vh;
   width: 74em;
-}
-#meetTheTeam {
-  font-size: 9em;
 }
 h1 {
   margin-right: .5em;
@@ -99,10 +96,6 @@ html {
 ul li {
   display: inline-block;
 }
-#shruti, #ron, #sam {
-  width: 40em;
-  height: 40em;
-}
 #warning  {
   display: none;
   z-index: 1;
@@ -123,7 +116,7 @@ ul li {
   border-width: medium;
   border-color: red;
 }
-#placesTemplate{
+/*#placesTemplate{
   display: inline-block;
   overflow-x: scroll;
   overflow-y: scroll;
@@ -131,7 +124,7 @@ ul li {
   height: 40em;
   width:35%;
   background-color: lightblue;
-}
+}*/
 #warning  {
  display: none;
  z-index: 1;
@@ -181,12 +174,12 @@ div#texttop {
   background-color: #B4BBCC;
   box-shadow: 0em .05em .05em .05em #1B1B25;
 }
-#placesTemplate,#Toggle{
+/*#placesTemplate,#Toggle{
    float:right;
    width:33%;
    display:inline-block;
    height: 100%;
- }
+ }*/
 #map-data-wrapper{
   display:inline-block;
 }
@@ -261,10 +254,5 @@ div#texttop {
 @media (min-width: 769px) {
   body {
     padding: 3em;
-  }
-  #picsContainer {
-    margin-top: 70em;
-  }
-  .title {
   }
 }

@@ -1,48 +1,48 @@
-(function(module) {
-
-function Place (opts) {
-  Object.keys(opts).forEach(function(e, index, keys) {
-      this[e] = opts[e];
-    }, this);
-}
-
-Place.all = [];
-
-Place.prototype.toHtml = function() {
-   var $newPlace = $('.table-template').clone();
-   $newPlace.removeClass('table-template');
-   $newPlace.find('#name').html(this.name);
-   $newPlace.find('#url').html(this.url);
-   $newPlace.find('#location').html(this.Address);
-   $newPlace.find('#description').html(this.description);
-   $newPlace.find('#hoursOfOperation').html(this.HoursOfOperation);
-   $newPlace.find('#category').html(this.category);
-   $newPlace.find('#picture').html(this.picture);
-   $newPlace.find('#lat_long').html(this.lat_long);
-   $newPlace.find('#icon-category').html(this.icon-category);
-   return $newPlace;
- };
-
-
-Place.fetchAll = function(){
-  $.getJSON('/data', function (result) {
-    console.log('Scott was here');
-    result.rows.forEach(function(item) {
-      if (item.category){
-        item.category = JSON.parse(item.category)
-      }
-      var place = new Place(item);
-      Place.all.push(place);
-
-    });
-  });
-};
-
-Place.fetchAll();
-module.Place = Place;
-})(window);
-
-
+// (function(module) {
+//
+// function Place (opts) {
+//   Object.keys(opts).forEach(function(e, index, keys) {
+//       this[e] = opts[e];
+//     }, this);
+// }
+//
+// Place.all = [];
+//
+// Place.prototype.toHtml = function() {
+//    var $newPlace = $('.table-template').clone();
+//    $newPlace.removeClass('table-template');
+//    $newPlace.find('#name').html(this.name);
+//    $newPlace.find('#url').html(this.url);
+//    $newPlace.find('#location').html(this.Address);
+//    $newPlace.find('#description').html(this.description);
+//    $newPlace.find('#hoursOfOperation').html(this.HoursOfOperation);
+//    $newPlace.find('#category').html(this.category);
+//    $newPlace.find('#picture').html(this.picture);
+//    $newPlace.find('#lat_long').html(this.lat_long);
+//    $newPlace.find('#icon-category').html(this.icon-category);
+//    return $newPlace;
+//  };
+//
+//
+// Place.fetchAll = function(){
+//   $.getJSON('/data', function (result) {
+//     console.log('Scott was here');
+//     result.rows.forEach(function(item) {
+//       if (item.category){
+//         item.category = JSON.parse(item.category)
+//       }
+//       var place = new Place(item);
+//       Place.all.push(place);
+//
+//     });
+//   });
+// };
+//
+// Place.fetchAll();
+// module.Place = Place;
+// })(window);
+//
+//
 
 
 
