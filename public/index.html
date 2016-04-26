@@ -23,8 +23,15 @@
         <h2>WAIT A MINUTE!</h2>
         <p>It seems you went right to the map before you told us what you are interested in. <br> Please select something from the form on our Home page to see all the great things Seattle has to offer</p>
       </div>
-      <!-- <section id="map">Map Section
-      </section> -->
+
+      <div id="map-canvas"></div>
+      <select id="type" onchange="filterMarkers(this.value);">
+          <option value="">Please select category</option>
+          <option value="second">second</option>
+          <option value="car">car</option>
+          <option value="third">third</option>
+      </select>
+
       <section id="homeDiv">
         <div id="texttop">
           <h1 class="title">-WELCOME TO SEATTLE-</h1>
@@ -59,5 +66,7 @@
     <!-- <script src="scripts/filterer.js"></script> -->
     <script src="scripts/select.js"></script>
     <script src="scripts/routes.js"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+    <script src="scripts/googleMaps.js" type="text/javascript"></script>
   </body>
 </html>

@@ -1,6 +1,12 @@
 * {
   font-family: 'Vollkorn' ,serif;
 }
+
+#map-canvas {
+    width: 500px;
+    height: 500px;
+}
+
 /*#picsContainer {
   display: flex;
   flex-direction: column;
