@@ -3,8 +3,9 @@
 }
 
 #map-canvas {
-    width: 500px;
-    height: 500px;
+    width: 74em;
+    height: 45em;
+    border-radius: .25em;
 }
 
 /*#picsContainer {
@@ -194,7 +195,8 @@ div#texttop {
   float:right;
 }
 #primary_nav_wrap {
-	margin-top:15px
+	margin-top: 2em;
+  margin-bottom: 1em;
 }
 
 #primary_nav_wrap ul {
