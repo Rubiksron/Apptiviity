@@ -1,0 +1,9 @@
+#map {
+
+  height: 100%;
+  width:95%;
+  display: inline-block;
+  position: relative;
+  display: inline-block;
+  border: .1em solid black;
+}
