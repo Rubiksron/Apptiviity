@@ -69,6 +69,7 @@ input[type=checkbox] {
   -webkit-transform: scale(5); /* Safari and Chrome */
   -o-transform: scale(5); /* Opera */
   padding: 1em;
+  margin: 1em;
 }
 
 .title {
@@ -153,8 +154,8 @@ div#texttop {
 }
 #initForm {
   color: white;
-  width: 13em;
-  font-size: 6em;
+  width: 15em;
+  font-size: 5em;
 }
 #homeDiv {
   width: 80em;
@@ -168,7 +169,7 @@ div#texttop {
   font-size: 1em;
   padding: .1em;
   margin-top: 1em;
-  margin-left: 4.4em;
+  margin-left: 3.4em;
   text-align: center;
   border-radius: .25em;
   background-color: #B4BBCC;
