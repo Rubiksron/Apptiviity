@@ -13,11 +13,3 @@
    }
    module.aboutController = aboutController;
 })(window);
-
- //
- // $('#closeMap').click(function(){
- //   $('#mapDiv').hide();
- // });
- // $('#submitButt').click(function(){
- //   $('#map').show();
- // });

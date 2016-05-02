@@ -1,4 +1,3 @@
-// (function(module) {
 //
 // function Place (opts) {
 //   Object.keys(opts).forEach(function(e, index, keys) {
@@ -26,7 +25,6 @@
 //
 // Place.fetchAll = function(){
 //   $.getJSON('/data', function (result) {
-//     console.log('Scott was here');
 //     result.rows.forEach(function(item) {
 //       if (item.category){
 //         item.category = JSON.parse(item.category)
@@ -40,19 +38,19 @@
 //
 // Place.fetchAll();
 // module.Place = Place;
-// })(window);
 //
 //
 
 
 
-var bgImageArray = ["../images/alki.jpg", "../images/kerryPark.jpg", "../images/magnolia.jpg", "../images/ferry.jpg", "../images/fromFerry.jpg", "../images/olympics.jpg"];
-secs = 4;
-bgImageArray.forEach(function(img){
-    new Image().src = img;
-});
 
+$(function(module) {
 function backgroundSequence() {
+  var bgImageArray = ["../images/alki.jpg", "../images/kerryPark.jpg", "../images/magnolia.jpg", "../images/ferry.jpg", "../images/fromFerry.jpg", "../images/olympics.jpg"];
+  secs = 4;
+  bgImageArray.forEach(function(img){
+    new Image().src = img;
+  });
   window.clearTimeout();
   var k = 0;
   for (i = 0; i < bgImageArray.length; i++) {
@@ -64,3 +62,4 @@ function backgroundSequence() {
   }
 }
 backgroundSequence();
+})(window);
