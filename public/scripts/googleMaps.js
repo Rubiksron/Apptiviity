@@ -6,10 +6,10 @@ var infowindow = new google.maps.InfoWindow({
 
 // Our markers
 markers1 = [
-    ['0', 'Title', 52.4357808, 4.991315699999973, 'car'],
-    ['1', 'Title', 52.4357808, 4.981315699999973, 'third'],
-    ['2', 'Title', 52.4555687, 5.039231599999994, 'car'],
-    ['3', 'Title', 52.4555687, 5.029231599999994, 'second']
+    ['0', 'Title', 47.6062, -122.3321, 'car'],
+    ['1', 'Title', 47.6062, -122.3329, 'third'],
+    ['2', 'Title', 47.6088, -122.3344, 'car'],
+    ['3', 'Title', 47.6088, -122.3369, 'second']
 ];
 
 /**
@@ -17,7 +17,7 @@ markers1 = [
  */
 
 function initialize() {
-    var center = new google.maps.LatLng(52.4357808, 4.991315699999973);
+    var center = new google.maps.LatLng(47.6062, -122.3321);
     var mapOptions = {
         zoom: 12,
         center: center,
