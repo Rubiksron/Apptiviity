@@ -1,3 +1,8 @@
+
+$('#submitButt').click(function(){
+  $('#map-canvas').removeAttr('hidden');
+});
+
 (function(module) {
    var mapNdataController = {};
 
