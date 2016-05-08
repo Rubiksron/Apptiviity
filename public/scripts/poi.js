@@ -42,13 +42,11 @@
 //
 
 
-
-
 (function(module) {
   function backgroundSequence() {
     var bgImageArray = ["../images/alki.jpg", "../images/kerryPark.jpg", "../images/magnolia.jpg", "../images/ferry.jpg", "../images/fromFerry.jpg", "../images/olympics.jpg"];
     secs = 4;
-    
+
     bgImageArray.forEach(function(img){
       new Image().src = img;
     });

@@ -1,6 +1,3 @@
-$(document).ready(function(){
-  $('#homeDiv').show();
-});
 
 (function(module) {
    var homeController = {};
