@@ -1,6 +1,9 @@
+$(document).ready(function(){
+  $('#map-canvas').hide();
+});
 
 $('#submitButt').click(function(){
-  $('#map-canvas').removeAttr('hidden');
+  $('#map-canvas').show();
 });
 
 (function(module) {
@@ -14,4 +17,5 @@ $('#submitButt').click(function(){
    };
 
    module.mapNdataController = mapNdataController;
+   
  })(window);
