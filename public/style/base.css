@@ -14,7 +14,7 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: beige;
+  background-color: white;
   height: 8em;
   width: 73em;
   border-radius: .5em;
@@ -119,7 +119,7 @@ html {
  border-color: red;
 }
 div#texttop {
-  color: beige;
+  color: yellow;
   margin-top: 1%;
   padding: 1rem;
   font-family: sans-serif;
