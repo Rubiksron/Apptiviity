@@ -6,7 +6,7 @@ var infowindow = new google.maps.InfoWindow({
 
 // Our markers
 markers1 = [
-    ['0', 'Title', 47.6062, -122.3321, 'car'],
+    ['0', 'This is the end of the world', 47.6062, -122.3321, 'car'],
     ['1', 'Title', 47.6062, -122.3329, 'third'],
     ['2', 'Title', 47.6088, -122.3344, 'car'],
     ['3', 'Title', 47.6088, -122.3369, 'second']
